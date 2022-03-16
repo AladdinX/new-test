@@ -1,0 +1,26 @@
+{
+  "name": "new-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir docs --public-url ./",
+    "clean": "del-cli ./.parcel-cache ./docs ./dist"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AladdinX/new-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AladdinX/new-test/issues"
+  },
+  "homepage": "https://github.com/AladdinX/new-test#readme",
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "parcel": "^2.3.2"
+  },
+  "browserslist":["Firefox>95", "Chrome>95"]
+}
